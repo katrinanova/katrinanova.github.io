@@ -1,0 +1,98 @@
+/* reset */
+
+body, h1, h2, h3, a, li
+section, div, ul, p, table {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+
+  text-decoration: inherit;
+  text-align: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  font: inherit;
+  color: inherit;
+
+  background: transparent;
+}
+
+html {
+  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#sidebar {
+  float: left;
+  width: 440px;
+  background: #4D4D4D;
+  height: 100%;
+  color: #D7F2CE;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#main {
+  float: left;
+  background: grey;
+  height: 100%;
+  color: #4D4D4D;
+  width: calc(100% - 440px);
+}
+
+#name {
+  padding: 40px 0 0 0;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+#webdev {
+
+}
+
+#photo > img {
+  padding: 40px 0;
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#about {
+  padding: 60px 30px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+#about > p {
+  margin: 0 auto;
+
+  /*background: #D7F2CE;*/
+  margin: 20px 0;
+  font-size: 22px;
+  color: black;
+  /*text-align: justify;*/
+  line-height: 120%;
+}
