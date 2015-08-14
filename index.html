@@ -13,14 +13,15 @@
       </section>
 
       <section id="links">
-        <a href="about"><i class="fa fa-home"></i></i>About</a>
-        <a href="work"><i class="fa fa-briefcase"></i>Work</a>
-        <a href="resume"><i class="fa fa-file-text"></i>Resume</a>
-        <a href="contacts"><i class="fa fa-envelope"></i>Contacts</a>
+        <a href="#about"><i class="fa fa-home"></i></i>About</a>
+        <a href="#work"><i class="fa fa-briefcase"></i>Work</a>
+        <a href="./KatrinaNova-Resume.pdf"><i class="fa fa-file-text"></i>Resume</a>
+        <a href="#contacts"><i class="fa fa-envelope"></i>Contacts</a>
       </section>
     </div>
 
     <div id="main">
+      <a name="about"></a>
       <section id="about">
         <header>- About -</header>
         <p>
@@ -54,27 +55,27 @@
       </section>
 
 
-
+      <a name="work"></a>
       <section id="work">
         <header>- Work -</header>
 
         <section id="projects">
 
-          <section class="each-project">
-            <figure class="projects-left">
+          <section class="each-project group">
+            <figure class="project 1i">
               <img src="images/colornote.png">
             </figure>
 
-            <div class="projects-right">
+            <div class="project p 1p">
               <h2>ColorNote</h2>
+              <a href="http://www.mycolornote.com">| Live</a>
+              <a href="https://github.com/katrinanova/color_note">| Git</a>
               <p>
                 A web application for creating, organizing and sharing notes freely.
-              </p>
-              <p>
                 Each note can have multiple file attachments that are stored in Amazon S3.
               </p>
               <p>
-                The back-end is a RESTful JSON API in Rails with client side interface provided mainly by Backbone.js. It has custom SQL queries and overrides Backbone’s parse method to load all associations in a single AJAX request.
+                The back-end is a RESTful JSON API in Rails with client side interface provided mainly by Backbone.js.
               </p>
               <p>
                 ColorNote allows users to sign in with Twitter or Facebook. There user-friendly interface features auto-save and the ability to organize notes by colors.
@@ -83,13 +84,12 @@
           </section>
 
 
-          <section class="each-project">
-            <figure class="projects-right">
-              <img src="images/ast.png">
-            </figure>
+          <section class="each-project group">
 
-            <div class="projects-left">
-              <h2>keeping up with the ASTEROIDS</h2>
+            <div class="project 2p p">
+              <h2>Keeping up with the ASTEROIDS</h2>
+              <a href="katrinnova.github.io/asteroids">| Live</a>
+              <a href="https://github.com/katrinanova/asteroids">| Git</a>
               <p>
                 A browser game inspired by the classic arcade game and current culture issues.
               </p>
@@ -100,21 +100,29 @@
                 The player has 3 lives to shoot all the asteroids, after initial hit asteroids break into smaller pieces.
               </p>
             </div>
+
+
+            <figure class="project 2i">
+              <img src="images/ast.png">
+            </figure>
+
+
           </section>
 
 
-          <section class="each-project">
-            <figure class="projects-left">
-              <img src="images/colornote.png">
+          <section class="each-project group">
+            <figure class="project 3i">
+              <img src="images/chess.png">
             </figure>
 
-            <div class="projects-right">
+            <div class="project 3p p">
               <h2>Chess</h2>
+              <a href="https://github.com/katrinanova/chess">| Git</a>
               <p>
                 Chess game made to be played in the terminal. Can be played with one or two players.
               </p>
               <p>
-                Computer player AI finds best move recursively by simulating opponent’s moves.
+                Computer player AI finds the best move recursively by simulating opponent's moves.
               </p>
               <p>
                 The game utilizes strict class inheritance to maintain DRY code.
@@ -125,10 +133,15 @@
         </section>
       </section>
 
-      <section id="resume">
-      </section>
+      <a name="contacts"></a>
 
       <section id="contacts">
+        <p>
+        I'm available for full-time hire, contract, or freelance work.
+        </p>
+        <p>
+        Feel free to contact me on LinkedIn or at katrina.a.nova@gmail.com
+        </p>
       </section>
 
     </div>
