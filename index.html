@@ -5,6 +5,9 @@
     <title>Katrina Nova - Web Developer</title>
   </head>
   <body group>
+
+
+
     <div id="sidebar">
       <section id="name">Katrina Nova</section>
       <section id="webdev">Full Stack Web Developer</section>
@@ -153,6 +156,26 @@
       </section>
 
     </div>
+
+    <script>
+      var image1 = document.getElementsByClassName("project 1i")[0]
+      image1.onclick = function(){
+        console.log("clicked")
+        window.location.href = "http://www.mycolornote.com"
+      }
+
+      var image2 = document.getElementsByClassName("project 2i")[0]
+      image2.onclick = function(){
+        console.log("clicked")
+        window.location.href = "http://katrinanova.github.io/Asteroids"
+      }
+
+      var image3 = document.getElementsByClassName("project 3i")[0]
+      image3.onclick = function(){
+        console.log("clicked")
+        window.location.href = "https://github.com/katrinanova/chess"
+      }
+    </script>
 
 
   </body>
