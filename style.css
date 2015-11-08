@@ -42,8 +42,6 @@ img {
   width: 100%;
   height: auto;
   display: block;
-  cursor: pointer;
-  cursor: hand;
 }
 
 #sidebar {
@@ -191,6 +189,8 @@ header {
 figure {
   width: 360px;
   height: auto;
+  cursor: pointer;
+  cursor: hand;
 }
 
 .project {
