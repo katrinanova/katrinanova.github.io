@@ -150,6 +150,7 @@ header {
 
 #about {
   height: calc(100% - 60px);
+  max-height: 650px;
   padding: 60px 30px 0 30px;
   width: 700px;
   margin: 0 auto;
@@ -182,7 +183,7 @@ header {
   width: 800px;
   margin: 0 auto;
   /*background: lightgray;*/
-  height: 890px;
+  height: 1200px;
   padding: 0 30px;
 }
 
@@ -205,8 +206,15 @@ figure {
   border-bottom: solid 5px lightgrey;
 }
 
+.first-project {
+  height: 272px;
+  margin: 30px 0;
+  border-bottom: solid 5px lightgrey;
+}
+
 .p > p {
   padding: 10px;
+  text-align: justify;
 }
 
 h2 {
