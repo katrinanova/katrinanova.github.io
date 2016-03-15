@@ -149,8 +149,7 @@ header {
 }
 
 #about {
-  height: calc(100% - 60px);
-  max-height: 650px;
+  height: 700px;
   padding: 60px 30px 0 30px;
   width: 700px;
   margin: 0 auto;
@@ -164,7 +163,7 @@ header {
 
   /*background: #D7F2CE;*/
   margin: 30px 0;
-  font-size: 22px;
+  font-size: 20px;
   color: #EDEDED;
   /*text-align: justify;*/
   line-height: 120%;
@@ -183,7 +182,7 @@ header {
   width: 800px;
   margin: 0 auto;
   /*background: lightgray;*/
-  height: 1200px;
+  height: 1240px;
   padding: 0 30px;
 }
 
@@ -221,6 +220,7 @@ h2 {
   padding: 10px;
   font-size: 20px;
   display: inline;
+  font-weight: bold;
 }
 
 h2.asteroids {
@@ -245,6 +245,7 @@ h2.asteroids {
   padding: 80px 30px 50px 30px;
   font-size: 20px;
   width: 700px;
+  height: 200px;
   margin: 0 auto;
 }
 
@@ -340,10 +341,6 @@ h2.asteroids {
     top: 630px;
     width: 440px;
     height: calc(100% - 630px);
-  }
-
-  #about > p {
-    font-size: 20px;
   }
 
 }
