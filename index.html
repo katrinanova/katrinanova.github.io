@@ -1,215 +1,245 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Astral by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Katrina Nova - Web Developer</title>
-  </head>
-  <body group>
+	<head>
+		<title>Katrina Nova - Web Developer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#me" class="icon fa-home active"><span>Home</span></a>
+						<a href="#work" class="icon fa-folder"><span>Work</span></a>
+						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+						<a href="#" class="icon fa-twitter"><span>Twitter</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="me" class="panel">
+								<header>
+									<h1>Katrina Nova</h1>
+									<p>Full Stack Web Developer</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>Work</h2>
+								</header>
+								<p>
+									My skills include Ruby, Rails, JavaScript, React.js,</p><p> React Native, Backbone.js, jQuery, SQL, Git,</p><p> HTML/CSS and Photoshop.
+								</p>
+							</br>
 
 
+								<section id="projects">
 
-    <div id="sidebar">
-      <section id="name">Katrina Nova</section>
-      <section id="webdev">Full Stack Web Developer</section>
-      <section id="photo">
-        <img src="images/round.png">
-      </section>
+									<section class="each-project pr1 group">
 
-      <section id="links">
-        <a href="#about"><i class="fa fa-home"></i> About</a>
-        <a href="#work"><i class="fa fa-briefcase"></i>  Work</a>
-        <a href="./KatrinaNova-Resume.pdf"><i class="fa fa-file-text"></i>  Resume</a>
-        <a href="#contacts"><i class="fa fa-envelope"></i>  Contacts</a>
-      </section>
-      <div id=footer-container>
-        <section id=footer>
-          <a href="https://github.com/katrinanova"<i class="fa fa-github"></i></a>
-          <a href="https://www.linkedin.com/pub/katrina-nova/102/516/a23"><i class="fa fa-linkedin-square"></i></a>
-        </section>
-      </div>
-    </div>
+										<div class="project">
+											<div class="group header">
+												<h3 class="project-name">Artguide</h3>
+												<a href="http://katrinadev.com/images/artforum.png">Soon in the App Store</a>
+										  </div>
+											<p>
+												An IOS App for Artforum.
+											</p>
+											<p>
+												Artguide allows users to browse through the massive database of art venues and events anywhere in the world.
 
-    <div id="main">
-      <a name="about"></a>
-      <section id="about">
-        <header>- About -</header>
-        <p>
-          I'm a New York-based Full Stack Web Developer.
-        </p>
-        <p>
-           My skills include Ruby, Rails, JavaScript, React.js, React Native, Backbone.js, jQuery, SQL, Git, HTML/CSS and Photoshop.
-        </p>
-        <p>
-          Besides coding on occasion I do modeling and I paint.
-        </p>
-        <br>
-        <br>
+											</p>
+											<p>
+											The app is implemented with React Native and Rails. While client side it is written with JavaScript, it utilizes standard IOS platform components, which gives the app a fully native feel.
+										</p>
+										</div>
 
+										<figure class="project 0i image1">
+											<img class="image1" src="images/artforum.png">
+										</figure>
 
+									</section>
 
-        <table>
-          <tr>
-          <td title="Ruby"><img src="images/icons/ruby.svg" class="icon"></td>
-          <td title="Rails"><img src="images/icons/rails.svg" class="icon" ></td>
-          <td title="JavScript"><img src="images/icons/JavaScript.svg" class="icon"></td>
-          <td title="React"><img src="images/icons/react.svg" class="icon"></td>
-          <td title="Backbone"><img src="images/icons/backbone.svg" class="icon"></td>
-        </tr>
-        <tr>
-          <td title="jQuery"><img src="images/icons/jQuery.svg" class="icon"></td>
-          <td title="git"><img src="images/icons/git.svg" class="icon"></td>
-          <td title="CSS3"><img src="images/icons/css3.svg" class="icon"></td>
-          <td title="HTML5"><img src="images/icons/html5.svg" class="icon" ></td>
-          <td title="PostgreSQL"><img src="images/icons/postgresql.svg" class="icon"></td>
-        </tr>
-        </table>
-      </section>
+									<section class="each-project pr2 one group">
 
+										<div class="project p 1p">
+											<div class="group header">
+												<h3 class="project-name">ColorNote</h3>
+												<a href="http://www.mycolornote.com">Live</a>
+												<a href="https://github.com/katrinanova/color_note">Github</a>
+											</div>
 
-      <a name="work"></a>
-      <section id="work">
-        <header>- Work -</header>
+											<p>
+												A web application for creating, organizing and sharing notes freely.
+											</p>
+											<p>
+												The back-end is a RESTful JSON API in Rails with client side interface provided mainly by Backbone.js.
+											</p>
 
-        <section id="projects">
+											<p>
+												ColorNote allows login with Facebook or Twitter for a seamless UX. It auto-saves notes in real-time to prevent data loss. The user can upload images that are stored on the cloud using Paperclip and AWS S3.
+											</p>
+										</div>
 
-          <section class="each-project group">
-
-            <div class="project 2p p">
-              <h2>Artguide</h2>
-              <a href="http://katrinadev.com/images/artforum.png">Soon in the App Store</a>
-              <p>
-                An IOS App for Artforum.
-              </p>
-              <p>
-                Artguide allows users to browse through the massive database of art venues and events anywhere in the world.
-
-              </p>
-              <p>
-              The app is implemented with React Native and Rails. While client side it is written with JavaScript, it utilizes standard IOS platform components, which gives the app a fully native feel.
-            </p>
-            </div>
-
-            <figure class="project 0i">
-              <img src="images/artforum.png">
-            </figure>
-
-          </section>
-
-          <section class="each-project one group">
-            <figure class="project 1i">
-              <img src="images/colornote.png">
-            </figure>
-
-            <div class="project p 1p">
-              <h2>ColorNote</h2>
-              <a href="http://www.mycolornote.com">| Live</a>
-              <a href="https://github.com/katrinanova/color_note">| Github</a>
-              <p>
-                A web application for creating, organizing and sharing notes freely.
-                Each note can have multiple file attachments that are stored in Amazon S3.
-              </p>
-              <p>
-                The back-end is a RESTful JSON API in Rails with client side interface provided mainly by Backbone.js.
-              </p>
-              <p>
-                ColorNote allows users to sign in with Twitter or Facebook. There user-friendly interface features auto-save and the ability to organize notes by colors.
-              </p>
-            </div>
-          </section>
+										<figure class="project 1i">
+											<img src="images/colornote.png">
+										</figure>
+									</section>
 
 
 
 
-          <section class="each-project group">
+									<section class="each-project pr3 group">
 
-            <div class="project 2p p">
-              <h2>Keeping up with the</h2>
-              <a href="http://katrinanova.github.io/Asteroids">| Live</a>
-              <a href="https://github.com/katrinanova/Asteroids">| Github</a>
-              <h2 class="asteroids">ASTEROIDS</h2>
-              <p>
-                A browser game inspired by the classic arcade game and current culture issues.
-              </p>
-              <p>
-                This game relies on radial geometry and basic trigonometry to dynamically move, rotate and accelerate objects.
-              </p>
-              <p>
-                The player has 3 lives to shoot all the asteroids, after initial hit asteroids break into smaller pieces.
-              </p>
-            </div>
-
-
-            <figure class="project 2i">
-              <img src="images/ast2.png">
-            </figure>
+										<div class="project 2p p">
+											<div class="group header">
+												<h3 class="project-name">Keeping up with the</h3>
+												<a href="http://katrinanova.github.io/Asteroids">Live</a>
+												<a href="https://github.com/katrinanova/Asteroids">Github</a>
+											</div>
+											<h3 class="asteroids">ASTEROIDS</h3>
+											<p>
+												A browser game inspired by the classic arcade game and current culture issues.
+											</p>
+											<p>
+												This game relies on radial geometry and basic trigonometry to dynamically move, rotate and accelerate objects.
+											</p>
+											<p>
+												The player has 3 lives to shoot all the asteroids, after initial hit asteroids break into smaller pieces.
+											</p>
+										</div>
 
 
-          </section>
+										<figure class="project 2i">
+											<img src="images/ast2.png">
+										</figure>
 
 
-          <section class="each-project three group">
-            <figure class="project 3i">
-              <img src="images/chess.png">
-            </figure>
-
-            <div class="project 3p p">
-              <h2>Chess</h2>
-              <a href="https://github.com/katrinanova/chess">| Github</a>
-              <p>
-                Chess game made to be played in the terminal. Can be played with one or two players.
-              </p>
-              <p>
-                Computer player AI finds the best move recursively by simulating opponent's moves.
-              </p>
-              <p>
-                The game utilizes strict class inheritance to maintain DRY code.
-              </p>
-            </div>
-          </section>
-
-        </section>
-      </section>
-
-      <a name="contacts"></a>
-
-      <section id="contacts">
-        <header>- Contacts -</header>
-        <p>
-        I'm available for full-time hire, contract, or freelance work.
-        </p>
-        <p>
-        Feel free to contact me on <a href="https://www.linkedin.com/pub/katrina-nova/102/516/a23">LinkedIn</a> or at katrina.a.nova@gmail.com
-        </p>
-      </section>
-
-    </div>
-
-    <script>
-      var image0 = document.getElementsByClassName("project 0i")[0]
-      image1.onclick = function(){
-        console.log("clicked")
-        window.location.href = "http://katrinadev.com/images/artforum.png"
-      }
-
-      var image1 = document.getElementsByClassName("project 1i")[0]
-      image1.onclick = function(){
-        console.log("clicked")
-        window.location.href = "http://www.mycolornote.com"
-      }
-
-      var image2 = document.getElementsByClassName("project 2i")[0]
-      image2.onclick = function(){
-        console.log("clicked")
-        window.location.href = "http://katrinanova.github.io/Asteroids"
-      }
-
-      var image3 = document.getElementsByClassName("project 3i")[0]
-      image3.onclick = function(){
-        console.log("clicked")
-        window.location.href = "https://github.com/katrinanova/chess"
-      }
-    </script>
+									</section>
 
 
-  </body>
+									<section class="each-project pr4 three group">
+
+										<div class="project 3p p">
+											<div class="group header">
+												<h3 class="project-name">Chess</h3>
+												<a href="https://github.com/katrinanova/chess">Github</a>
+											</div>
+											<p>
+												Chess game made to be played in the terminal. Can be played with one or two players.
+											</p>
+											<p>
+												The computer player AI finds the best move by simulating opponent’s moves using Depth First Search.
+											</p>
+											<p>
+												The game utilizes strict class inheritance to maintain DRY code.
+											</p>
+										</div>
+
+										<figure class="project 3i">
+											<img src="images/chess.png">
+										</figure>
+									</section>
+
+								</section>
+
+
+							</article>
+
+						<!-- Contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Contact Me</h2>
+								</header>
+								<form action=contact.php method="post" id="form">
+									<div>
+										<div class="row">
+											<div class="6u 12u$(mobile)">
+												<input type="text" name=”cf_name” placeholder="Name" />
+											</div>
+											<div class="6u$ 12u$(mobile)">
+												<input type="text" name=”cf_email” placeholder="Email" />
+											</div>
+											<div class="12u$">
+												<input type="text" name="subject" placeholder="Subject" />
+											</div>
+											<div class="12u$">
+												<textarea name=”cf_message” placeholder="Message" rows="8"></textarea>
+											</div>
+											<div class="12u$">
+												<input type="submit" value="Send Message" />
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<!-- <div id="footer">
+						<ul class="copyright">
+							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</div> -->
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script>
+
+				var image0 = document.getElementsByClassName("project 0i")[0]
+				image0.onclick = function(){
+					console.log("clicked")
+					window.location.href = "http://katrinadev.com/images/artforum.png"
+				}
+
+				var image1 = document.getElementsByClassName("project 1i")[0]
+				image1.onclick = function(){
+					console.log("clicked")
+					window.location.href = "http://www.mycolornote.com"
+				}
+
+				var image2 = document.getElementsByClassName("project 2i")[0]
+				image2.onclick = function(){
+					console.log("clicked")
+					window.location.href = "http://katrinanova.github.io/Asteroids"
+				}
+
+				var image3 = document.getElementsByClassName("project 3i")[0]
+				image3.onclick = function(){
+					console.log("clicked")
+					window.location.href = "https://github.com/katrinanova/chess"
+				}
+			</script>
+
+	</body>
+
+
 </html>
