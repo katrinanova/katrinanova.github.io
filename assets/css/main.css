@@ -1729,3 +1729,24 @@ max-height:100%;}
 	  height: auto;
 	  margin: 0 auto;
 	}
+
+	#contact > header > p {
+		font-size: 1em;
+		letter-spacing: -0.015em;
+		/*margin-bottom: 3px;*/
+		color: #777777;
+	}
+
+	#contact > header > .github:hover {
+		cursor: pointer;
+		cursor: hand;
+		color: #191970;
+		text-decoration: underline;
+	}
+
+	#contact > header > .linkedin:hover {
+		cursor: pointer;
+		cursor: hand;
+		color: #191970;
+		text-decoration: underline;
+	}
