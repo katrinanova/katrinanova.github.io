@@ -2022,9 +2022,9 @@ max-height:100%;}
 	}
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 390px) {
 	#work.panel {
-		height: 2000px;
+		height: 1980px;
 	}
 
 	#work > p {
