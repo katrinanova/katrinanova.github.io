@@ -2022,8 +2022,12 @@ max-height:100%;}
 	}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 410px) {
 	#work.panel {
 		height: 2000px;
+	}
+
+	#work > p {
+		font-size: 14px;
 	}
 }
