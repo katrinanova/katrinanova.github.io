@@ -2022,6 +2022,16 @@ max-height:100%;}
 	}
 }
 
+@media screen and (max-width: 380px) {
+	#work.panel {
+		height: 1950px;
+	}
+
+	#work > p {
+		font-size: 14px;
+	}
+}
+
 @media screen and (max-width: 350px) {
 	#work.panel {
 		height: 1900px;
