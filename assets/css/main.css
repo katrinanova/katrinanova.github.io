@@ -1996,15 +1996,12 @@ max-height:100%;}
 
 	div.group.header {
 		margin-top: 50px;
-		font-size: 19px;
+		font-size: 17px;
 	}
 
 	h2 {
 		font-size: 2.15em;
 	}
-
-
-
 }
 
 @media screen and (max-width: 475px) {
